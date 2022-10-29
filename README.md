@@ -2,7 +2,7 @@
 
 ![Screenshot](screenshot.png)
 
-This Ulauncher extension enables you to search Brave.
+This Ulauncher extension enables you to use the Brave search.
 
 ## Install
 
@@ -22,3 +22,9 @@ Currently doctest is used for the `functions` module. To run the tests execute t
 ```
 python3 src/functions.py
 ``` 
+### Credits
+
+Original Idea:
+```
+https://github.com/mikebarkmin/ulauncher-duckduckgo
+```
