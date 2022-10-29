@@ -24,7 +24,7 @@ python3 src/functions.py
 ``` 
 ## Credits
 
-### Original Idea:
+#### Original Idea:
 ```
 https://github.com/mikebarkmin/ulauncher-duckduckgo
 ```
