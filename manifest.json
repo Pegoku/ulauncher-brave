@@ -1,0 +1,37 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Brave extension",
+  "description": "To use brave search engine",
+  "developer_name": "Pegoku",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "keyword",
+      "type": "keyword",
+      "name": "brave",
+      "description": "brave extension",
+      "default_value": "br"
+    },
+    {
+      "id": "brave_search_language",
+      "type": "input",
+      "name": "Search Language",
+      "description": "Input your desired ISO language code",
+      "default_value": "en-US"
+    },
+    {
+      "id": "brave_include_instant_answer",
+      "type": "select",
+      "name": "Include Instant Answer",
+      "description": "Choose whether to include instant answer before search suggestions",
+      "default_value": false,
+      "options": [
+        {"value": true, "text": "yes"},
+        {"value": false, "text": "no"}
+      ]
+    }
+  ]
+}
