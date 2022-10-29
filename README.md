@@ -22,9 +22,9 @@ Currently doctest is used for the `functions` module. To run the tests execute t
 ```
 python3 src/functions.py
 ``` 
-### Credits
+## Credits
 
-Original Idea:
+### Original Idea:
 ```
 https://github.com/mikebarkmin/ulauncher-duckduckgo
 ```
